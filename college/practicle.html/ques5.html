@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initialscale=1.0">
+    <title>Centered Links Example</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+        }
+
+        .container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        a {
+            display: block;
+            margin: 10px;
+        }
+
+        h4 {
+            margin-bottom: 10px;
+        }
+
+        hr {
+            height: 2px;
+            border: none;
+            background-color: #ccc;
+            width: 50%;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="container">
+        <h2>Target Names in <code>&lt;a&gt;</code> Tag</h2>
+        <p><a href="https://www.example.com" target="_blank">Open in New Tab/Window (_blank)</a></p>
+        <p><a href="https://www.example.com" target="_self">Open in Same Tab/Window (_self)</a></p>
+        <p><a href="https://www.example.com" target="_parent">Open in Parent Frame (_parent)</a></p>
+        <p><a href="https://www.example.com" target="_top">Open in Topmost Window (_top)</a></p>
+    </div>
+</body>
+
+</html>
